@@ -1,0 +1,7 @@
+Using 'psx_retroshader'
+by Marco Dsoft (github@dsoft20)
+
+https://github.com/dsoft20/psx_retroshader
+
+Using MIT License (included)
+(c) 2015 dsoft20
