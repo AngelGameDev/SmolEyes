@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: E:/Projects/SmolEyes/SmolEyes/Packages/manifest.json
+    m_FilePath: E:/Projects/SmolEyes/SmolEyesProject/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,12 +8,12 @@ m_ProjectFiles:
       ticks: 637461050294817770
     m_Hash: 4129500968
   m_LockFileStatus:
-    m_FilePath: E:/Projects/SmolEyes/SmolEyes/Packages/packages-lock.json
+    m_FilePath: E:/Projects/SmolEyes/SmolEyesProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637461050381734765
+      ticks: 637461998442797241
     m_Hash: 1554650196
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: E:\Projects\SmolEyes\SmolEyes\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: E:\Projects\SmolEyes\SmolEyesProject\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -120,7 +120,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: E:\Projects\SmolEyes\SmolEyes\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: E:\Projects\SmolEyes\SmolEyesProject\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -157,6 +157,7 @@ m_PackageAssets:
         - 2.0.7
         - 3.0.1
         - 3.0.2
+        - 3.0.3
         compatible:
         - 1.0.2
         - 1.0.6
@@ -178,6 +179,7 @@ m_PackageAssets:
         - 2.0.7
         - 3.0.1
         - 3.0.2
+        - 3.0.3
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -217,7 +219,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.5
       source: 1
-      resolvedPath: E:\Projects\SmolEyes\SmolEyes\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
+      resolvedPath: E:\Projects\SmolEyes\SmolEyesProject\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -286,7 +288,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: E:\Projects\SmolEyes\SmolEyes\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: E:\Projects\SmolEyes\SmolEyesProject\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -355,7 +357,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.19
       source: 1
-      resolvedPath: E:\Projects\SmolEyes\SmolEyes\Library\PackageCache\com.unity.test-framework@1.1.19
+      resolvedPath: E:\Projects\SmolEyes\SmolEyesProject\Library\PackageCache\com.unity.test-framework@1.1.19
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -395,9 +397,11 @@ m_PackageAssets:
         - 1.1.16
         - 1.1.18
         - 1.1.19
+        - 1.1.20
         compatible:
         - 1.1.19
-        verified: 1.1.19
+        - 1.1.20
+        verified: 1.1.20
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.5
@@ -427,12 +431,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637413148910000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: 83583c7273ee961612200215e8989039bbce8748
         path: 
     - packageId: com.unity.textmeshpro@3.0.1
@@ -440,7 +444,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: E:\Projects\SmolEyes\SmolEyes\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: E:\Projects\SmolEyes\SmolEyesProject\Library\PackageCache\com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -587,7 +591,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.4
       source: 1
-      resolvedPath: E:\Projects\SmolEyes\SmolEyes\Library\PackageCache\com.unity.timeline@1.4.4
+      resolvedPath: E:\Projects\SmolEyes\SmolEyesProject\Library\PackageCache\com.unity.timeline@1.4.4
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -643,6 +647,7 @@ m_PackageAssets:
         - 1.4.2
         - 1.4.3
         - 1.4.4
+        - 1.4.5
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -650,6 +655,8 @@ m_PackageAssets:
         - 1.5.0-preview.4
         - 1.5.0-preview.5
         - 1.5.1-pre.1
+        - 1.5.1-pre.2
+        - 1.5.1-pre.3
         compatible:
         - 1.2.6
         - 1.2.7
@@ -685,6 +692,7 @@ m_PackageAssets:
         - 1.4.2
         - 1.4.3
         - 1.4.4
+        - 1.4.5
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -692,7 +700,9 @@ m_PackageAssets:
         - 1.5.0-preview.4
         - 1.5.0-preview.5
         - 1.5.1-pre.1
-        verified: 1.4.4
+        - 1.5.1-pre.2
+        - 1.5.1-pre.3
+        verified: 1.4.5
       dependencies:
       - name: com.unity.modules.director
         version: 1.0.0
@@ -2547,7 +2557,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.5
       source: 1
-      resolvedPath: E:\Projects\SmolEyes\SmolEyes\Library\PackageCache\com.unity.ext.nunit@1.0.5
+      resolvedPath: E:\Projects\SmolEyes\SmolEyesProject\Library\PackageCache\com.unity.ext.nunit@1.0.5
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2603,5 +2613,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: E:/Projects/SmolEyes/SmolEyes/Packages
+m_ProjectPath: E:/Projects/SmolEyes/SmolEyesProject/Packages
 m_EditorVersion: 2020.2.1f1 (270dd8c3da1c)

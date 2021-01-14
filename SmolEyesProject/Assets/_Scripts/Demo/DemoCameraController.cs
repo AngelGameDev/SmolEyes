@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DemoCameraController : MonoBehaviour
 {
+	public static DemoCameraController main;
+
 	// Editor properties.
 	public Transform viewTarget;
 
@@ -22,11 +24,16 @@ public class DemoCameraController : MonoBehaviour
 	private float currentZoomProgress = 0.5f;
 	private float currentRotProgress = 0.5f;
 
-	public static float currentRotationSpeed = 0f;
-	public static float currentCameraAngle;
+	public float currentRotationSpeed = 0f;
+	public float currentCameraAngle;
 	private float targetZoom;
 	private float targetRotProgress;
 	private float targetZoomProgress;
+
+	private void Awake()
+	{
+		main = this;
+	}
 
 	private void Start()
 	{

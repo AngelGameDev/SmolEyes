@@ -49,7 +49,7 @@ public class DemoSpotlightEffect : MonoBehaviour
 		// Update cone angle to match camera always.
 		refTransCone.transform.eulerAngles = new Vector3
 		(
-			DemoCameraController.currentCameraAngle,
+			DemoCameraController.main.currentCameraAngle,
 			refTransCone.transform.eulerAngles.y,
 			refTransCone.transform.eulerAngles.z
 		);

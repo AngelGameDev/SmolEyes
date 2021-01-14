@@ -11,8 +11,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -70,17 +72,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2386}
     - Class: 114
-      Script: {instanceID: 2530}
+      Script: {instanceID: 2516}
     - Class: 114
-      Script: {instanceID: 2648}
+      Script: {instanceID: 2532}
     - Class: 114
-      Script: {instanceID: 2826}
+      Script: {instanceID: 2650}
     - Class: 114
-      Script: {instanceID: 3032}
+      Script: {instanceID: 2828}
     - Class: 114
-      Script: {instanceID: 3360}
+      Script: {instanceID: 3034}
     - Class: 114
-      Script: {instanceID: 25074}
+      Script: {instanceID: 3364}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -242,7 +244,7 @@ ScriptsOnlyBuild:
     className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 5ea968a54108973bf4833c9e874dde0f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DemoRotateActor
@@ -320,7 +322,13 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
-      Hash: d35c68b7c43f660ab8792c90528c21f6
+      Hash: b33d66981a791b5996a9c901c0cece4d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DemoControlsTest
+  - hash:
+      serializedVersion: 2
+      Hash: a79c6d064bb649b6e3460bb0ba9fe406
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DemoCameraController
@@ -464,6 +472,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
+      Hash: 38545e8684a87f7a7d4bb731a3c046c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Billboard
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -540,19 +554,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
-  - hash:
-      serializedVersion: 2
-      Hash: 38545e8684a87f7a7d4bb731a3c046c9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Billboard
-  - hash:
-      serializedVersion: 2
-      Hash: b33d66981a791b5996a9c901c0cece4d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DemoControlsTest
   platform: 19
   scenePathNames:
   - Assets/_Scenes/SampleScene.unity
-  playerPath: C:/Users/angel/Desktop/SmolEyesTest_2/SmolEyesDemo.exe
+  playerPath: C:/Users/angel/Desktop/SmolEyesTest/SmolEyesDemo.exe
