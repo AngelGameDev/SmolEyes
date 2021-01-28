@@ -18,7 +18,7 @@ public class DemoRotateActor : MonoBehaviour
     {
 		refAnimator.speed = Mathf.Lerp
 		(
-			0f, 
+			0f,
 			maxAnimSpeed, 
 			Mathf.Abs(DemoCameraController.main.currentRotationSpeed)
 				/ DemoCameraController.main.maxRot
